@@ -3,28 +3,26 @@
 
 body {
   color: #000305;
-  font-family: New Roman", Times, serif;
-  padding: 40px:
+  font-family: "New Roman", Times, serif;
+  padding: 40px;
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
 h1 {
   text-align: center;
-  font-family:"New Roman", Times, serif;
+  font-family: "New Roman", Times, serif;
   color: black;
-  
 }
-h2,{
+h2 {
   text-align: center;
-  font-family:"New Roman", Times, serif;
+  font-family: "New Roman", Times, serif;
   color: black;
-
 }
 h3 {
   font-family: "New Roman", Times, serif;
-
 }
-h5{
+
+h5 {
   text-align: center;
   word-spacing: 3ex;
   color: red;
@@ -33,25 +31,24 @@ h5{
 article {
   text-align: center;
   padding: 45px 0;
-  
 }
 article div {
   text-align: center;
   width: 100%;
 }
-body{
-background-color: #dfcfb9;
-text-align: center;
-color: black;
+body {
+  background-color: #dfcfb9;
+  text-align: center;
+  color: black;
 }
 p {
   text-align: center;
   line-height: 1.5;
 }
-ol{
+ol {
   text-align: left;
 }
-ul{
+ul {
   text-align: center;
 }
 /* The div container constrains the content width within the main container to 600px */
@@ -66,7 +63,7 @@ img {
   height: auto;
 }
 nav {
-  color: black
+  color: black;
 }
 header {
   text-align: center;
@@ -75,17 +72,15 @@ header {
 }
 
 /* Add your solution below */
-footer{
+footer {
   text-align: center;
-
 }
-a:link{
-  color:black;
-}
-a: hover {
-color: red;
+a:hover {
+  color: red;
 }
 .image-circle {
-  border-radius: 50%; 
-  border-color: black;
+  border-radius: 50%;
+  border: 3px solid #000000;
+  padding: 1px;
+  margin: 3px;
 }
