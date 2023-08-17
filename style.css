@@ -6,7 +6,6 @@ body {
   font-family: "New Roman", Times, serif;
   padding: 40px;
 }
-
 /* Set the font family for any h1, h2, or h3 heading */
 h1 {
   text-align: center;
@@ -19,9 +18,9 @@ h2 {
   color: black;
 }
 h3 {
+  text-align: center;
   font-family: "New Roman", Times, serif;
 }
-
 h5 {
   text-align: center;
   word-spacing: 3ex;
@@ -30,27 +29,30 @@ h5 {
 }
 article {
   text-align: center;
-  padding: 45px 0;
+  padding: 30px 0;
 }
 article div {
   text-align: center;
   width: 100%;
 }
 body {
-  background-color: #dfcfb9;
+  background-color: #eae2b7;
   text-align: center;
   color: black;
 }
 p {
-  text-align: center;
+  text-align: left;
   line-height: 1.5;
 }
 ol {
   text-align: left;
 }
-ul {
-  text-align: center;
+ul,
+li {
+  margin-left: 0;
+  text-align: left;
 }
+
 /* The div container constrains the content width within the main container to 600px */
 body {
   margin: auto;
@@ -75,12 +77,15 @@ header {
 footer {
   text-align: center;
 }
+a:link {
+  color: #d62828;
+}
 a:hover {
-  color: red;
+  color: #f77f00;
 }
 .image-circle {
   border-radius: 50%;
-  border: 3px solid #000000;
+  border: 2px solid #003049;
   padding: 1px;
   margin: 3px;
 }
